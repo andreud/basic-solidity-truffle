@@ -22,6 +22,15 @@ Youll need Truffle installed via npm and the Ganache local test blockchain runni
 	> counterIntance.count()
 	> counterIntance.increment()
 
+Calling a function from an account different than deployer (accounts[0]) and/or passing it an ether amount 
+
+	> CFI.amITheOwner(arg1, arg2, {from:accounts[7], value:20000000000000000})
+
+
+## Links
+- https://www.trufflesuite.com/docs/truffle/getting-started/interacting-with-your-contracts
+- https://ethereum.stackexchange.com/questions/19283/in-the-truffle-console-how-to-set-and-get-current-account
+- https://btrjtrky.blogspot.com/2018/12/how-to-change-truffle-console-account.html
 
 ## Credits
 

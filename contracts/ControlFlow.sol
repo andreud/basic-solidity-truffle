@@ -33,7 +33,13 @@ contract ControlFlow {
 
 	// Check if current user calling is the deployer
 	function amITheOwner() public view returns(bool) {
-		return msg.sender == owner
+		return msg.sender == owner;
+		// Usage in truffle console:
+		// truffle deploy
+		// truffle console
+		// CFI = await ControlFlow.deployed() // get instance of contract
+		// CFI.amITheOwner() // will return true as default account (accounts[0]) is the deployer
+		// CFI.amITheOwner({from:accounts[1]}) // will return false as called form a different account
+		// https://ethereum.stackexchange.com/questions/19283/in-the-truffle-console-how-to-set-and-get-current-account
 	}
-
 }

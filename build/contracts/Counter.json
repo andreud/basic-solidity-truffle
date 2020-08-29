@@ -26,25 +26,25 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/ecomerciar/Documents/tuts/truffle/basico/contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ecomerciar/Documents/tuts/truffle/basico/contracts/Counter.sol\":{\"keccak256\":\"0xe4b1f4571625b6e550cda5e3feddd5dab1f7edd79dafdda1b7ad47b85326cbaf\",\"urls\":[\"bzz-raw://9320ba48df0336de27dbdb56af02229af81bd38e2762ea2db49964cb16e84199\",\"dweb:/ipfs/QmQsjyeR5JfaSCREGwRwrAc1TH2qtX4FRaN6sx7iPzUh6N\"]}},\"version\":1}",
-  "bytecode": "0x608060405260008055348015601357600080fd5b5060a9806100226000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306661abd146037578063d09de08a146053575b600080fd5b603d605b565b6040518082815260200191505060405180910390f35b60596061565b005b60005481565b600080815480929190600101919050555056fea265627a7a7231582046a3327c80f4d0910fb87f037bb0a06010a6e5e87f25b7b780344b0bcf96b9d264736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806306661abd146037578063d09de08a146053575b600080fd5b603d605b565b6040518082815260200191505060405180910390f35b60596061565b005b60005481565b600080815480929190600101919050555056fea265627a7a7231582046a3327c80f4d0910fb87f037bb0a06010a6e5e87f25b7b780344b0bcf96b9d264736f6c63430005100032",
-  "sourceMap": "26:92:0:-;;;67:1;47:21;;26:92;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:92:0;;;;;;;",
-  "deployedSourceMap": "26:92:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:92:0;;;;;;;;;;;;;;;;;;;;;;;;47:21;;;:::i;:::-;;;;;;;;;;;;;;;;;;;72:44;;;:::i;:::-;;47:21;;;;:::o;72:44::-;104:5;;:8;;;;;;;;;;;;;72:44::o",
-  "source": "pragma solidity ^0.5.16;\n\ncontract Counter {\n\n\tuint public count = 0;\n\n\tfunction increment() public {\n\t\tcount ++;\n\t}\n}\n\n/*\nVersion larga, con constuctor, funcion getter explicita, etc\ncontract Counter {\n\n\tuint count;\n\n\tconstructor() public {\n\t\tcount = 0;\n\t}\n\n\tfunction getCount() public view returns(uint) {\n\t\treturn count;\n\t}\n\n\tfunction increment() public {\n\t\tcount = count + 1;\n\t}\n}\n*/",
-  "sourcePath": "/home/ecomerciar/Documents/tuts/truffle/basico/contracts/Counter.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/ecomerciar/Documents/tuts/truffle/basic-solidity-truffle/contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ecomerciar/Documents/tuts/truffle/basic-solidity-truffle/contracts/Counter.sol\":{\"keccak256\":\"0xc9c3ab4306dec4819ec284f7ecdfcad06db2dcdd952696f734c540ca2cc3076f\",\"urls\":[\"bzz-raw://a6a799159b8c81d57d337de2b487afda8123d4ad5756be9d1e54fd35e21065a8\",\"dweb:/ipfs/QmYdQdFDmtFK3uWJGabiU9kBeTRDWypRhKwc7Y7AQMD3KB\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b5060a9806100226000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306661abd146037578063d09de08a146053575b600080fd5b603d605b565b6040518082815260200191505060405180910390f35b60596061565b005b60005481565b600080815480929190600101919050555056fea265627a7a72315820bab73f41bb16a1c06176136f6ed5ee31b4cf559303f0e55c405d974094f4e37364736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806306661abd146037578063d09de08a146053575b600080fd5b603d605b565b6040518082815260200191505060405180910390f35b60596061565b005b60005481565b600080815480929190600101919050555056fea265627a7a72315820bab73f41bb16a1c06176136f6ed5ee31b4cf559303f0e55c405d974094f4e37364736f6c63430005100032",
+  "sourceMap": "26:92:1:-;;;67:1;47:21;;26:92;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:92:1;;;;;;;",
+  "deployedSourceMap": "26:92:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:92:1;;;;;;;;;;;;;;;;;;;;;;;;47:21;;;:::i;:::-;;;;;;;;;;;;;;;;;;;72:44;;;:::i;:::-;;47:21;;;;:::o;72:44::-;104:5;;:8;;;;;;;;;;;;;72:44::o",
+  "source": "pragma solidity ^0.5.16;\n\ncontract Counter {\n\n\tuint public count = 0;\n\n\tfunction increment() public {\n\t\tcount ++;\n\t}\n}\n\n/*\nLong version: constuctor, explicit getter, etc\ncontract Counter {\n\n\tuint count;\n\n\tconstructor() public {\n\t\tcount = 0;\n\t}\n\n\tfunction getCount() public view returns(uint) {\n\t\treturn count;\n\t}\n\n\tfunction increment() public {\n\t\tcount = count + 1;\n\t}\n}\n*/",
+  "sourcePath": "/home/ecomerciar/Documents/tuts/truffle/basic-solidity-truffle/contracts/Counter.sol",
   "ast": {
-    "absolutePath": "/home/ecomerciar/Documents/tuts/truffle/basico/contracts/Counter.sol",
+    "absolutePath": "/home/ecomerciar/Documents/tuts/truffle/basic-solidity-truffle/contracts/Counter.sol",
     "exportedSymbols": {
       "Counter": [
-        12
+        106
       ]
     },
-    "id": 13,
+    "id": 107,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 95,
         "literals": [
           "solidity",
           "^",
@@ -52,7 +52,7 @@
           ".16"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:1"
       },
       {
         "baseContracts": [],
@@ -60,20 +60,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 12,
+        "id": 106,
         "linearizedBaseContracts": [
-          12
+          106
         ],
         "name": "Counter",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4,
+            "id": 98,
             "name": "count",
             "nodeType": "VariableDeclaration",
-            "scope": 12,
-            "src": "47:21:0",
+            "scope": 106,
+            "src": "47:21:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -81,10 +81,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 2,
+              "id": 96,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "47:4:0",
+              "src": "47:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -93,14 +93,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 3,
+              "id": 97,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "67:1:0",
+              "src": "67:1:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -112,14 +112,14 @@
           },
           {
             "body": {
-              "id": 10,
+              "id": 104,
               "nodeType": "Block",
-              "src": "100:16:0",
+              "src": "100:16:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 8,
+                    "id": 102,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -127,15 +127,15 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "104:8:0",
+                    "src": "104:8:1",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 7,
+                      "id": 101,
                       "name": "count",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4,
-                      "src": "104:5:0",
+                      "referencedDeclaration": 98,
+                      "src": "104:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -146,56 +146,56 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 9,
+                  "id": 103,
                   "nodeType": "ExpressionStatement",
-                  "src": "104:8:0"
+                  "src": "104:8:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 11,
+            "id": 105,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "increment",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5,
+              "id": 99,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "90:2:0"
+              "src": "90:2:1"
             },
             "returnParameters": {
-              "id": 6,
+              "id": 100,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "100:0:0"
+              "src": "100:0:1"
             },
-            "scope": 12,
-            "src": "72:44:0",
+            "scope": 106,
+            "src": "72:44:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 13,
-        "src": "26:92:0"
+        "scope": 107,
+        "src": "26:92:1"
       }
     ],
-    "src": "0:387:0"
+    "src": "0:373:1"
   },
   "legacyAST": {
-    "absolutePath": "/home/ecomerciar/Documents/tuts/truffle/basico/contracts/Counter.sol",
+    "absolutePath": "/home/ecomerciar/Documents/tuts/truffle/basic-solidity-truffle/contracts/Counter.sol",
     "exportedSymbols": {
       "Counter": [
-        12
+        106
       ]
     },
-    "id": 13,
+    "id": 107,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 95,
         "literals": [
           "solidity",
           "^",
@@ -203,7 +203,7 @@
           ".16"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:1"
       },
       {
         "baseContracts": [],
@@ -211,20 +211,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 12,
+        "id": 106,
         "linearizedBaseContracts": [
-          12
+          106
         ],
         "name": "Counter",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4,
+            "id": 98,
             "name": "count",
             "nodeType": "VariableDeclaration",
-            "scope": 12,
-            "src": "47:21:0",
+            "scope": 106,
+            "src": "47:21:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -232,10 +232,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 2,
+              "id": 96,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "47:4:0",
+              "src": "47:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -244,14 +244,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 3,
+              "id": 97,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "67:1:0",
+              "src": "67:1:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -263,14 +263,14 @@
           },
           {
             "body": {
-              "id": 10,
+              "id": 104,
               "nodeType": "Block",
-              "src": "100:16:0",
+              "src": "100:16:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 8,
+                    "id": 102,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -278,15 +278,15 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "104:8:0",
+                    "src": "104:8:1",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 7,
+                      "id": 101,
                       "name": "count",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4,
-                      "src": "104:5:0",
+                      "referencedDeclaration": 98,
+                      "src": "104:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -297,43 +297,43 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 9,
+                  "id": 103,
                   "nodeType": "ExpressionStatement",
-                  "src": "104:8:0"
+                  "src": "104:8:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 11,
+            "id": 105,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "increment",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5,
+              "id": 99,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "90:2:0"
+              "src": "90:2:1"
             },
             "returnParameters": {
-              "id": 6,
+              "id": 100,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "100:0:0"
+              "src": "100:0:1"
             },
-            "scope": 12,
-            "src": "72:44:0",
+            "scope": 106,
+            "src": "72:44:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 13,
-        "src": "26:92:0"
+        "scope": 107,
+        "src": "26:92:1"
       }
     ],
-    "src": "0:387:0"
+    "src": "0:373:1"
   },
   "compiler": {
     "name": "solc",
@@ -343,12 +343,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xe8ae3B2436ABe7313e48254cB8FDc625e19AA5F7",
-      "transactionHash": "0x5eb13cd514388e378000585ffb580a5188eeb281830372ef6e9b5e8e493e36c2"
+      "address": "0x617c1eC0C8Bec54E9d0fd538e5250FE0D125737C",
+      "transactionHash": "0x44931ae179fee259926f9a640c8d10be427b47ac1717d3de8331b75a0bc9d77c"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-08-22T23:07:49.330Z",
+  "updatedAt": "2020-08-29T22:53:19.433Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
